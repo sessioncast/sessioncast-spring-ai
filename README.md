@@ -24,10 +24,10 @@ dependencyResolutionManagement {
 // build.gradle.kts
 dependencies {
     // SessionCast base + Spring Boot starter
-    implementation("com.github.sessioncast.sessioncast-java:sessioncast-spring-boot-starter:v1.1.0")
+    implementation("com.github.sessioncast.sessioncast-java:sessioncast-spring-boot-starter:1.1.0")
 
     // Spring AI integration (this module)
-    implementation("com.github.sessioncast:sessioncast-spring-ai:v1.0.0")
+    implementation("com.github.sessioncast:sessioncast-spring-ai:1.0.0")
 
     // Spring AI (manage your own BOM)
     implementation(platform("org.springframework.ai:spring-ai-bom:1.0.0"))
