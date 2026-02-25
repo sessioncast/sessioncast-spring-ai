@@ -27,7 +27,7 @@ dependencies {
     implementation("com.github.sessioncast.sessioncast-java:sessioncast-spring-boot-starter:1.1.0")
 
     // Spring AI integration (this module)
-    implementation("com.github.sessioncast:sessioncast-spring-ai:1.0.0")
+    implementation("com.github.sessioncast:sessioncast-spring-ai:1.0.1")
 
     // Spring AI (manage your own BOM)
     implementation(platform("org.springframework.ai:spring-ai-bom:1.0.0"))
@@ -47,7 +47,7 @@ dependencies {
 <dependency>
     <groupId>com.github.sessioncast</groupId>
     <artifactId>sessioncast-spring-ai</artifactId>
-    <version>v1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 
